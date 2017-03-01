@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info PGFVersion="0.25" GSCVersion="1.25.6227">
+  <DisplayName>Move</DisplayName>
+  <DisplayIndex>0</DisplayIndex>
+  <Type>Persistent</Type>
+  <ToolTip>Move actor</ToolTip>
+  <Interface>MoveBehavior</Interface>
+  <ControllerClass>GSBehaviorViewController</ControllerClass>
+</info>
