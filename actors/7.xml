@@ -65,7 +65,7 @@
           <predicate type="number">
             <attributes>
               <text id="operator">&gt;</text>
-              <real id="RHS">1</real>
+              <real id="RHS">4</real>
             </attributes>
           </predicate>
         </condition>

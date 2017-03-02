@@ -23,7 +23,7 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id477507" class="CompoundBehavior" enabled="true">
+    <behavior id="id477507" class="CompoundBehavior" enabled="false">
       <attributes>
         <text id="name">Control</text>
         <text id="bundleName">Group.behavior</text>
@@ -31,7 +31,7 @@
         <boolean id="runSequentially">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id234369" class="RuleBehavior" enabled="true">
+        <behavior id="id234369" class="RuleBehavior" enabled="false">
           <attributes>
             <text id="name">UP</text>
             <text id="bundleName">Rule.behavior</text>
@@ -64,7 +64,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior id="id898315" class="RuleBehavior" enabled="true">
+        <behavior id="id898315" class="RuleBehavior" enabled="false">
           <attributes>
             <text id="name">LEFT</text>
             <text id="bundleName">Rule.behavior</text>
@@ -97,7 +97,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior id="id287451" class="RuleBehavior" enabled="true">
+        <behavior id="id287451" class="RuleBehavior" enabled="false">
           <attributes>
             <text id="name">RIGHT</text>
             <text id="bundleName">Rule.behavior</text>
@@ -130,7 +130,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior id="id284939" class="RuleBehavior" enabled="true">
+        <behavior id="id284939" class="RuleBehavior" enabled="false">
           <attributes>
             <text id="name">DOWN</text>
             <text id="bundleName">Rule.behavior</text>
@@ -218,6 +218,47 @@
         <boolean id="restoreActorImage">true</boolean>
         <text id="currentFrameAttribute" />
       </attributes>
+    </behavior>
+    <behavior id="id167577" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id237321" eventType="mouse position" pluginPredicateTypeIndex="0" class="MousePosition">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="mousePosition" conditionType="not over actor">
+            <attributes />
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id137288" class="MoveToBehavior" enabled="true">
+          <attributes>
+            <text id="name">Move To</text>
+            <text id="bundleName">MoveTo.behavior</text>
+            <boolean id="runToCompletion">false</boolean>
+            <point id="position">
+              <real id="x">
+                <expression>
+                  <reference keypath="game.devices.mouse.position.x" />
+                </expression>
+              </real>
+              <real id="y">
+                <expression>
+                  <reference keypath="game.devices.mouse.position.y" />
+                </expression>
+              </real>
+            </point>
+            <index id="space">1</index>
+            <real id="speed">300</real>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>

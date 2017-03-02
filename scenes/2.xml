@@ -17,29 +17,15 @@
           </attributes>
           <aspects />
         </actor>
-        <actor id="id205273" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">111</real>
-              <real id="y">238</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">161</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
         <actor id="id245565" prototype="id362310">
           <attributes>
             <point id="position">
               <real id="x">227</real>
-              <real id="y">259</real>
+              <real id="y">220</real>
             </point>
             <size id="size">
               <real id="width">30</real>
-              <real id="height">120</real>
+              <real id="height">202</real>
             </size>
             <angle id="rotation">0</angle>
             <text id="name">lava Copy 2</text>
@@ -49,7 +35,7 @@
         <actor id="id109699" prototype="id362310">
           <attributes>
             <point id="position">
-              <real id="x">305</real>
+              <real id="x">325</real>
               <real id="y">77</real>
             </point>
             <size id="size">
@@ -79,12 +65,12 @@
         <actor id="id217351" prototype="id362310">
           <attributes>
             <point id="position">
-              <real id="x">508</real>
-              <real id="y">260</real>
+              <real id="x">466</real>
+              <real id="y">244</real>
             </point>
             <size id="size">
               <real id="width">30</real>
-              <real id="height">120</real>
+              <real id="height">153</real>
             </size>
             <angle id="rotation">0</angle>
             <text id="name">lava Copy 6</text>
