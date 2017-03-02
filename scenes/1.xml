@@ -1,227 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id696743">
+<scene PGFVersion="0.25" GSCVersion="1.25.6227" id="id920758">
   <layers>
-    <layer id="id769743">
+    <layer id="id981479">
       <actors>
-        <actor id="id410856" prototype="id223239">
+        <actor id="id892085" prototype="id400614">
           <attributes>
             <point id="position">
-              <real id="x">67</real>
-              <real id="y">267</real>
+              <real id="x">284</real>
+              <real id="y">159</real>
             </point>
             <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
+              <real id="width">569</real>
+              <real id="height">318</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects />
         </actor>
-        <actor id="id205273" prototype="id362310">
+        <actor id="id492225" prototype="id854603">
           <attributes>
             <point id="position">
-              <real id="x">111</real>
-              <real id="y">238</real>
+              <real id="x">285</real>
+              <real id="y">157</real>
             </point>
             <size id="size">
-              <real id="width">30</real>
-              <real id="height">161</real>
+              <real id="width">91</real>
+              <real id="height">91</real>
             </size>
             <angle id="rotation">0</angle>
+            <image id="image">1488454868_play</image>
           </attributes>
           <aspects />
-        </actor>
-        <actor id="id352927" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">181</real>
-              <real id="y">78</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">160</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 1</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id245565" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">227</real>
-              <real id="y">259</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 2</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id109699" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">305</real>
-              <real id="y">77</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">153</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 3</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id454843" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">357</real>
-              <real id="y">259</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 4</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id509291" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">448</real>
-              <real id="y">60</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 5</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id217351" prototype="id362310">
-          <attributes>
-            <point id="position">
-              <real id="x">508</real>
-              <real id="y">260</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">120</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">lava Copy 6</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id271658" prototype="id402440">
-          <attributes>
-            <point id="position">
-              <real id="x">144</real>
-              <real id="y">145</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id765435" prototype="id402440">
-          <attributes>
-            <point id="position">
-              <real id="x">241</real>
-              <real id="y">86</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">gem Copy 1</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id705836" prototype="id402440">
-          <attributes>
-            <point id="position">
-              <real id="x">293</real>
-              <real id="y">273</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">gem Copy 2</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id183034" prototype="id402440">
-          <attributes>
-            <point id="position">
-              <real id="x">380</real>
-              <real id="y">69</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">gem Copy 3</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id621070" prototype="id402440">
-          <attributes>
-            <point id="position">
-              <real id="x">491</real>
-              <real id="y">144</real>
-            </point>
-            <size id="size">
-              <real id="width">30</real>
-              <real id="height">30</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <text id="name">gem Copy 4</text>
-          </attributes>
-          <aspects />
-        </actor>
-        <actor id="id419799" prototype="id152159">
-          <attributes>
-            <point id="position">
-              <real id="x">103</real>
-              <real id="y">57</real>
-            </point>
-            <size id="size">
-              <real id="width">120</real>
-              <real id="height">51</real>
-            </size>
-            <angle id="rotation">0</angle>
-            <image id="image" />
-            <boolean id="preloadArt">false</boolean>
-            <color id="color">
-              <real id="alpha">0</real>
-            </color>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <boolean id="visible">true</boolean>
-                <enumeration id="blendingMode">0</enumeration>
-                <boolean id="flipHorizontally">false</boolean>
-                <boolean id="flipVertically">false</boolean>
-              </attributes>
-            </graphics>
-          </aspects>
         </actor>
       </actors>
       <attributes>
@@ -231,7 +40,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">start</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">568</real>

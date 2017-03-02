@@ -9,12 +9,18 @@
     <actor id="id223239" />
     <actor id="id362310" />
     <actor id="id402440" />
-    <actor id="id152159" />
     <actor id="id679414" />
+    <actor id="id579414" />
+    <actor id="id185443" />
+    <actor id="id872733" />
+    <actor id="id854603" />
+    <actor id="id400614" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id920758" />
     <scene id="id696743" />
+    <scene id="id965902" />
   </scenes>
   <attributes>
     <text id="name">default name</text>

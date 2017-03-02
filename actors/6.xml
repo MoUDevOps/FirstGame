@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id579414" PGFVersion="0.25" GSCVersion="1.25.6227">
+<actor id="id185443" PGFVersion="0.25" GSCVersion="1.25.6227">
   <attributes>
-    <text id="name">gem-up</text>
+    <text id="name">die</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">60</real>
-      <real id="height">60</real>
+      <real id="width">120</real>
+      <real id="height">120</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,58 +18,35 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">gem01</image>
+    <image id="image">explosion</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id144731" class="GrowShrinkBehavior" enabled="true">
+    <behavior id="id725317" class="TimerBehavior" enabled="true">
       <attributes>
-        <text id="name">Change Size</text>
-        <text id="bundleName">ChangeSize.behavior</text>
-        <real id="growthRate">5</real>
-      </attributes>
-    </behavior>
-    <behavior id="id374122" class="InterpolateBehavior" enabled="true">
-      <attributes>
-        <text id="name">Interpolate</text>
-        <text id="bundleName">Interpolate.behavior</text>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">1</real>
         <boolean id="runToCompletion">true</boolean>
-        <text id="targetAttribute">self.attributes.color.alpha</text>
-        <real id="finalValue">0</real>
-        <real id="duration">0.25</real>
-        <index id="easing">0</index>
       </attributes>
-    </behavior>
-    <behavior id="id427225" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id138092" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
-          <attributes>
-            <index id="conditionType">1</index>
-            <text id="subjectAttribute">self.attributes.size.width</text>
-            <text id="name">default name</text>
-          </attributes>
-          <predicate type="number">
-            <attributes>
-              <text id="operator">&gt;=</text>
-              <real id="RHS">175</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
       <behaviors>
-        <behavior id="id805991" class="DestroyAction" enabled="true">
+        <behavior id="id331848" class="ResetGameAction" enabled="true">
           <attributes>
-            <text id="name">Destroy</text>
-            <text id="bundleName">Destroy.behavior</text>
+            <text id="name">Reset Game</text>
+            <text id="bundleName">ResetGame.behavior</text>
+            <index id="enableAdvertisement">0</index>
           </attributes>
         </behavior>
       </behaviors>
+    </behavior>
+    <behavior id="id288465" class="GrowShrinkBehavior" enabled="true">
+      <attributes>
+        <text id="name">Change Size</text>
+        <text id="bundleName">ChangeSize.behavior</text>
+        <real id="growthRate">-5</real>
+      </attributes>
     </behavior>
   </behaviors>
   <aspects>

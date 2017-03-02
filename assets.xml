@@ -20,6 +20,15 @@
     <image name="levelexit">
       <file name="levelexit.png" size="11276" />
     </image>
+    <image name="explosion">
+      <file name="explosion.png" size="2424" />
+    </image>
+    <image name="maxresdefault">
+      <file name="maxresdefault.png" size="899113" />
+    </image>
+    <image name="1488454868_play">
+      <file name="1488454868_play.png" size="3756" />
+    </image>
   </images>
   <fonts />
   <behaviors />
